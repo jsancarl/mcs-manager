@@ -1,0 +1,34 @@
+{
+    "remark": "This file is only used for quick deployment.",
+    "languages": [
+        {
+            "label": "English",
+            "value": "en_us"
+        },
+        {
+            "label": "简体中文",
+            "value": "zh_cn"
+        }
+    ],
+    "packages": [
+        {
+            "language": "en_us",
+            "description": "I don't know, this is a description",
+            "title": "Forge 1.21.1",
+            "runtime": "Java 21+",
+            "hardware": "RAM 8G+",
+            "size": "7MB",
+            "remark": "Minecraft Forge",
+            "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.0.22/forge-1.21.1-52.0.22-installer.jar",
+            "author": "minecraftforge.net",
+            "setupInfo": {
+                "type": "minecraft/java/forge",
+                "startCommand": "sh ./run.sh",
+                "stopCommand": "stop",
+                "updateCommand": "java -jar forge-1.21.1-52.0.22-installer.jar --installServer",
+                "ie": "utf-8",
+                "oe": "utf-8"
+            }
+        }
+    ]
+}
